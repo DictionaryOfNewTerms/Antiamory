@@ -1,0 +1,14 @@
+{
+  "version": "1.0",
+  "project": "Antiamory",
+  "description": "Antiamory - Project-specific MCP servers with isolated credentials",
+  "mcpServers": {
+    "github": {
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-github"],
+      "env": {
+        "GITHUB_PERSONAL_ACCESS_TOKEN": "${HOBBY_GITHUB_TOKEN}"
+      }
+    }
+  }
+}
