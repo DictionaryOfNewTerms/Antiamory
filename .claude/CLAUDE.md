@@ -1,6 +1,6 @@
 # Project Configuration - Antiamory
 
-**Inherits**: Global SuperClaude Framework (`~/.claude/CLAUDE.md`)
+**Inherits**: `~/.claude/CLAUDE.md`
 **Framework Docs**: `~/.claude/docs/` (on-demand loading)
 
 ---
@@ -155,20 +155,6 @@ When starting a multi-session initiative:
 1. Create `docs/initiatives/[name].md`
 2. Update the Session Bootstrap table above
 3. Track progress with phase checklists
-
-
-## Framework Access
-
-Load docs on-demand from `~/.claude/docs/` when needed:
-
-| Need | Read |
-|------|------|
-| UI work | `~/.claude/docs/mcp/MCP_Magic.md` |
-| Complex analysis | `~/.claude/docs/mcp/MCP_Sequential.md` |
-| Research | `~/.claude/docs/mcp/MCP_Tavily.md` |
-| Code editing | `~/.claude/docs/mcp/MCP_Serena.md` |
-
----
 
 ## Session Lifecycle
 
