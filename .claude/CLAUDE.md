@@ -97,7 +97,7 @@ gh issue list
 gh pr create --title "..." --body "..."
 ```
 
-**Full credential documentation**: `~/.claude/docs/credential-security.md`
+**Full credential documentation**: `~/.claude/docs/guides/credential-security.md`
 
 ---
 
@@ -159,7 +159,7 @@ When starting a multi-session initiative:
 ## Session Lifecycle
 
 1. **Start**: `git status`
-2. **Work**: Use TodoWrite for multi-step tasks
+2. **Work**: Use TaskCreate for multi-step tasks
 3. **End**: Commit changes, verify audit passes
 
 ---

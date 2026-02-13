@@ -28,7 +28,7 @@ echo $ANTIAMORY_GITHUB_TOKEN  # Should show token (not NOT_CONFIGURED)
 gh auth status                 # Should show configured account
 ```
 
-**Full credential documentation**: `~/.claude/docs/credential-security.md`
+**Full credential documentation**: `~/.claude/docs/guides/credential-security.md`
 
 ---
 
