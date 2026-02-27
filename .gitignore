@@ -5,10 +5,8 @@ node_modules/
 /dist
 .DS_Store
 *.pem
-.env.local
-.env.development.local
-.env.test.local
-.env.production.local
+.env
+.env.*
 npm-debug.log*
 *.tsbuildinfo
 next-env.d.ts
@@ -16,5 +14,14 @@ next-env.d.ts
 # direnv credentials
 .envrc
 
-# Claude Code local settings (machine-specific)
-.claude/settings.local.json
+# Claude Code (internal workflow, not part of the project)
+.claude/
+
+# MCP config
+.mcp.json
+
+# Playwright MCP
+.playwright-mcp/
+
+# Vercel
+.vercel/
