@@ -1,0 +1,4 @@
+type: landing-page
+public_origin: DictionaryOfNewTerms/Antiamory
+real_project: roar-gits/Antiamory
+purpose: Public-facing description of "antiamory". Product code lives in real_project. This working dir is a presentation artifact only — do NOT apply full project doctrine (artifacts/, guides/, initiatives infrastructure). Edits here are limited to landing-page content, design tokens, and deploy config.

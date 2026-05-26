@@ -14,8 +14,10 @@ next-env.d.ts
 # direnv credentials
 .envrc
 
-# Claude Code (internal workflow, not part of the project)
-.claude/
+# Claude Code — landing page: track CLAUDE.md only (minimal pointer); keep
+# docs/, entity/, settings.local.json, and any other internal-doc dirs local.
+.claude/*
+!.claude/CLAUDE.md
 
 # MCP config
 .mcp.json
