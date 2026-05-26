@@ -1,4 +1,5 @@
 type: landing-page
 public_origin: DictionaryOfNewTerms/Antiamory
 real_project: roar-gits/Antiamory
-purpose: Public-facing description of "antiamory". Product code lives in real_project. This working dir is a presentation artifact only — do NOT apply full project doctrine (artifacts/, guides/, initiatives infrastructure). Edits here are limited to landing-page content, design tokens, and deploy config.
+purpose: Profile-pinnable public GitHub repo for antiamory.org. The repo IS the deliverable (audience: GitHub visitors browsing pinned work); no real product code lives here. Edits limited to landing-page content, design tokens, deploy config. Do NOT apply full project doctrine (artifacts/, guides/, initiatives infrastructure) here — real project work happens at real_project.
+note: NOT a coming-soon page. A coming-soon page is a route INSIDE an actual product project (e.g., /soon, /coming-soon/tuning). A landing-page repo is its own working dir whose purpose is GitHub profile visibility.
